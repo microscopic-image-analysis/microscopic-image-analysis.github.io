@@ -1,0 +1,28 @@
+---
+layout: default
+title: Group name
+---
+<section class="about">
+<p>
+  {% include about.html %}
+  <br>
+  <a href="#news">Find out what's new&hellip;</a>
+</p>
+<img src="assets/group.jpg"></img>
+</section>
+</section>
+<h3>Contact info</h3>
+<p>
+  {% include contact.html %}
+</p>
+</section>
+<section>
+<h3 id="news">News from the group</h3>
+
+{% include news-list.html number=3 %}
+
+<a href="{{ "news.html" | relative_url }}">
+  Read all news&hellip;
+</a>
+
+</section>

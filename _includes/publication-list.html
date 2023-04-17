@@ -1,0 +1,12 @@
+{% if include.name == "all" %}
+{% assign publications = site.publications %}
+{% else %}
+{% assign publications = site.publications | where_exp:"pub","pub.involved contains include.name" %}
+{% endif %}
+<ul>
+{% for publication in publications reversed %}
+<li>
+{{ publication.content | markdownify }}
+</li>
+{% endfor %}
+</ul>

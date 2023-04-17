@@ -1,0 +1,17 @@
+---
+layout: default
+title: page.name
+---
+
+
+<hgroup>
+<h1>{{ page.name }}</h1>
+<h3>{{ page.role }}</h3>
+</hgroup>
+
+<div class="member-about">
+<img src="{{ page.imgpath | relative_url }}" class="member-img"></img>
+<section>
+  {{ content }}
+</section>
+</div>

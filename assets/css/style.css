@@ -1,0 +1,52 @@
+:root {
+  --spacing: .5rem;
+  --background-color: #eff1f5;
+}
+
+a.undecorated {
+  text-decoration: none;
+  color: inherit;
+}
+
+header[data-theme="dark"] {
+  /* Image by https://pixabay.com/users/geralt-9301/ (Gerd Altmann) from Pixabay */
+  background-image: url("/ghpages-test/assets/bacteria.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat( auto-fill, minmax(15em, 1fr) );
+  grid-row-gap: 1em;
+  grid-column-gap: 1em;
+}
+
+.team-panel {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 5em auto;
+  grid-column-gap: .5em;
+  margin: 0;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: repeat( auto-fit, minmax(15em, 1fr) );
+  grid-row-gap: 1em;
+  grid-column-gap: 1em;
+  align-items: center;
+}
+
+@media only screen and (min-width: 30em) {
+  .member-about {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-column-gap: 1em;
+  }
+}
+
+img.member-img {
+  max-height: 15em;
+  margin-bottom: 1em;
+}

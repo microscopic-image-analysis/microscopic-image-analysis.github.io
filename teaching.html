@@ -1,0 +1,64 @@
+---
+layout: default
+title: Teaching
+---
+
+<section>
+<h2>Lectures</h2>
+<p>
+  Here you can find an overview over all the lectures we offer.
+</p>
+
+{% assign current_lectures = site.lectures | where:"state","current" %}
+{% assign planned_lectures = site.lectures | where:"state","planned" %}
+{% assign old_lectures = site.lectures | where:"state","old" %}
+
+<h3>Current lectures</h3>
+<ul>
+{% for lecture in current_lectures %}
+<li>
+  <a href="{{ lecture.url | relative_url }}">
+  {{ lecture.name }}
+  </a>
+  ({{ lecture.when }})
+</li>
+{% else %}
+<li><em>none</em></li>
+{% endfor %}
+</ul>
+
+<h3>Planned lectures</h3>
+<p>
+  These lectures are not offered this semester but will be in the future:
+</p>
+<ul>
+{% for lecture in planned_lectures %}
+<li>
+  <a href="{{ lecture.url | relative_url }}">
+  {{ lecture.name }}
+  </a>
+  ({{ lecture.when }})
+</li>
+{% else %}
+<li><em>none</em></li>
+{% endfor %}
+</ul>
+
+<h3>Old lectures</h3>
+<p>
+  These lectures are not offered anymore but have been in the past:
+</p>
+<ul>
+{% for lecture in old_lectures %}
+<li>
+  <a href="{{ lecture.url | relative_url }}">
+  {{ lecture.name }}
+  </a>
+  ({{ lecture.when }})
+</li>
+{% else %}
+<li><em>none</em></li>
+{% endfor %}
+</ul>
+
+</section>

@@ -1,0 +1,9 @@
+collections:
+  team:
+    output: true
+  lectures:
+    output: true
+  projects:
+    output: true
+  publications:
+baseurl: "/"
