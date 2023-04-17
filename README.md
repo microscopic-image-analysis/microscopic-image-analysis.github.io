@@ -1,6 +1,6 @@
 # Microscopic Image Analysis Website
 
-The website contains the source for https://microscopic-image-analysis.github.io
+This repository contains the source for https://microscopic-image-analysis.github.io
 
 ## How to maintain the website
 
