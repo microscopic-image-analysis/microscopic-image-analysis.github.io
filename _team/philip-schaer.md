@@ -1,10 +1,10 @@
- ---
- name: "Philip Schär"
- role: "PhD student"
- imgpath: "/assets/Philip_preliminary.png"
- teaser: "Researches slice sampling"
- layout: member
- ---
+---
+name: "Philip Schär"
+role: "PhD student"
+imgpath: "/assets/Philip_preliminary.png"
+teaser: "Researches slice sampling"
+layout: member
+---
 
 I am a second-year PhD student in mathematics under joint supervision of [Michael Habeck](/microscopic-image-analysis.github.io/team/michael-habeck.md) and [Daniel Rudolf](https://staff.fim.uni-passau.de/~rudolf/).  
 
