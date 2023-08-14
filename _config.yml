@@ -1,6 +1,7 @@
 collections:
   team:
     output: true
+    sort_by: "ordering"
   lectures:
     output: true
   projects:

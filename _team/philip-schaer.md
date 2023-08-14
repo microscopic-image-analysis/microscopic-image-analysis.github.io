@@ -1,6 +1,7 @@
 ---
 name: "Philip Schär"
 role: "PhD student"
+ordering: 3
 imgpath: "/assets/Philip_preliminary.png"
 teaser: "Researches slice sampling"
 layout: member
