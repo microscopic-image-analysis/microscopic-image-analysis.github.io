@@ -6,7 +6,7 @@ title: Team
 <h2>Our Team</h2>
 
 <div class="team-grid">
-{% for member in site.team %}
+{% for member in site.team | sort: "ordering" %}
 <a href="{{ member.url | relative_url }}" class="undecorated">
 <article class="team-panel">
   <img src="{{ member.imgpath | relative_url }}">
