@@ -5,8 +5,10 @@ title: Team
 
 <h2>Our Team</h2>
 
+
+{% assign team = site.team | sort: "ordering" %}
 <div class="team-grid">
-{% for member in site.team | sort: "ordering" %}
+{% for member in team %}
 <a href="{{ member.url | relative_url }}" class="undecorated">
 <article class="team-panel">
   <img src="{{ member.imgpath | relative_url }}">
