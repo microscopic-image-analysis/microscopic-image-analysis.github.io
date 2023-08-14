@@ -20,6 +20,8 @@ My PhD project is focused on slice sampling, which is a class of Markov chain Mo
 
 [Semantic Scholar](https://www.semanticscholar.org/author/Philip-Schar/2204760249)  
 
+[LinkedIn]{https://www.linkedin.com/in/philip-sch%C3%A4r-6a190b250}
+
 ## Publications
 {% include publication-list.html name="philip" %}
 
