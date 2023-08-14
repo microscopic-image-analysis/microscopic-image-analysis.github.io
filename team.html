@@ -5,6 +5,10 @@ title: Team
 
 <h2>Our Team</h2>
 
+<p>
+Number of members: {% site.team.size %}
+</p>
+
 <div class="team-grid">
 {% for member in site.team %}
 <a href="{{ member.url | relative_url }}" class="undecorated">
