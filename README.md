@@ -6,7 +6,16 @@ This repository contains the source for https://microscopic-image-analysis.githu
 
 1. Update the files `_includes/about.html` and `_includes/contact.html` for the
    landing page.
-2. Write news in the `_posts` directory following the file format `yyyy-mm-dd-title.md`.
+2. Write news in the `_posts` directory following the file format `yyyy-mm-dd-title.md`
+   with the following form:
+   ```md
+   ---
+   layout: post
+   title: "Post title"
+   ---
+
+   Post content
+   ```
 3. One markdown file per group member in the `_team` directory:
    ```md
    ---
