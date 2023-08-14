@@ -10,7 +10,7 @@ a.undecorated {
 
 header[data-theme="dark"] {
   /* Image by https://pixabay.com/users/geralt-9301/ (Gerd Altmann) from Pixabay */
-  background-image: url("/ghpages-test/assets/bacteria.jpg");
+  background-image: url("assets/bacteria.jpg");
   background-position: center;
   background-size: cover;
 }
