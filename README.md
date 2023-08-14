@@ -20,7 +20,8 @@ This repository contains the source for https://microscopic-image-analysis.githu
    ```md
    ---
    name: "Your name goes here"
-   role: "What you role is (chair, postdoc, PhD student, ...)"
+   role: "What you role is (Group leader, Postdoc, PhD student, Research assistant, Student, ...)"
+   ordering: 1
    imgpath: "/assets/your-image.jpg"
    teaser: "A very short description of what you do"
    layout: member
@@ -31,6 +32,15 @@ This repository contains the source for https://microscopic-image-analysis.githu
    {% include publication-list.html name="your name" %}
    to include a personalised publication list.
    ```
+   For the `ordering` key, pick a number corresponding to your role:
+   | `role`             | `ordering` |
+   | ------------------ | ---------- |
+   | Group leader       | 1          |
+   | Postdoc            | 2          |
+   | PhD student        | 3          |
+   | Research assistant | 4          |
+   | Student            | 5          |
+   
 4. One markdown file per lecture in the `_lectures` directory:
    ```md
    ---
