@@ -7,7 +7,7 @@ teaser: "Investigating slice sampling from various different angles"
 layout: member
 ---
 
-I am a second-year PhD student in mathematics, working on slice sampling under joint supervision of [Michael Habeck](/team/michael-habeck.html) and [Daniel Rudolf](https://staff.fim.uni-passau.de/~rudolf/).  
+I am a second-year PhD student in mathematics, working on slice sampling under joint supervision of [Michael Habeck](/team/michael-habeck.html) and [Daniel Rudolf](https://staff.fim.uni-passau.de/~rudolf/). My PhD project is associated with the [Interactive Inference](https://inference.uni-jena.de/) project.
 
 Slice sampling is a class of Markov chain Monte Carlo (MCMC) methods for approximate sampling from (absolutely continuous) probability distributions on (potentially high-dimensional) Euclidean spaces. It can generally be divided into two-subclasses, *ideal slice sampling* and *pragmatic slice sampling*. Methods in the former are conceptually simple and correspondingly well-analyzable, but parts of their transition mechanism cannot be efficiently implemented (except in some toy settings), which prevents them from being used in practical applications. Pragmatic slice sampling methods on the other hand are specifically designed to be efficiently implementable, while each mimicking a specific ideal slice sampler in hopes of retaining some of its properties, and have found good use in a variety of practical applications. However, the commitment to computational efficiency has so far only led to methods that are conceptually quite complicated (at least compared to their ideal slice sampling counterparts) and correspondingly hard to formally analyze.
 
