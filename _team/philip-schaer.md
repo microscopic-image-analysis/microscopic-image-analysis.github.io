@@ -3,7 +3,7 @@ name: "Philip Schär"
 role: "PhD student"
 ordering: 3
 imgpath: "/assets/Philip_preliminary.png"
-teaser: "Researches slice sampling"
+teaser: "Investigating slice sampling from various different angles"
 layout: member
 ---
 
@@ -13,11 +13,9 @@ Slice sampling is a class of Markov chain Monte Carlo (MCMC) methods for approxi
 
 My PhD project concerns itself both with ideal and with pragmatic slice sampling methods. On the one hand, we aim to further improve the theoretical understanding of ideal slice sampling methods, for example by deriving better estimates of their spectral gap, which is known to quantify both the convergence speed and the asymptotic sample quality of an MCMC method for a given target distribution. In our view, results in this regard serve both to underline advantages of slice sampling over other MCMC approaches and to point out performance disparities between different ideal slice samplers.
 
-On the other hand, we are interested in the development of new pragmatic slice sampling methods. By mimicking previously underexplored ideal slice samplers (such as *polar slice sampling*), we hope to devise new MCMC methods that, at least in certain types of settings, outperform all existing ones. This in turn necessitates some theoretical work, because for pragmatic slice samplers merely proving their asymptotic convergence already poses a significant challenge.
-
+On the other hand, we are interested in the development of new pragmatic slice sampling methods. By mimicking previously underexplored ideal slice samplers (such as *polar slice sampling*), we hope to devise new MCMC methods that, at least in certain types of settings, outperform all existing ones. This in turn necessitates some theoretical work, because for pragmatic slice samplers merely proving their asymptotic convergence already poses a significant challenge. However, most of the work in this area consists of numerical experiments, because (in light of their being so difficult to formally analyze) pragmatic slice samplers are mostly evaluated based on their empirical performance, both in synthetic settings and in real world applications.
 
 ## My Pages
-
 [arXiv Publications](https://arxiv.org/a/schar_p_1.html)  
 [Google Scholar](https://scholar.google.com/citations?hl=en&user=tIE_vOQAAAAJ)  
 [Research Gate](https://www.researchgate.net/profile/Philip-Schaer)  
