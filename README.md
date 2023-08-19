@@ -20,7 +20,7 @@ This repository contains the source for https://microscopic-image-analysis.githu
    ```md
    ---
    name: "Your name goes here"
-   role: "What you role is (Group leader, Postdoc, PhD student, Research assistant, Student, ...)"
+   role: "What your role is (Group leader, Postdoc, PhD student, Research assistant, Student, ...)"
    ordering: 1
    imgpath: "/assets/your-image.jpg"
    teaser: "A very short description of what you do"
