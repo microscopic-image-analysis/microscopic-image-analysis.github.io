@@ -13,5 +13,5 @@ My projects are at an intersection of applying bayesian modeling techniques to a
 ### Further links
 
 You can also find me on [GitHub](https://github.com/ShantanuKodgirwar) or
-[LinkedIn](www.linkedin.com/in/shantanu-kodgirwar-779a5010a)
+[LinkedIn](https://www.linkedin.com/in/shantanu-kodgirwar-779a5010a)
 
