@@ -1,7 +1,7 @@
 ---
-name: "Image Processing I"
+name: "Image Processing II"
 state: old
-when: "Winter 2023/2024"
+when: "Summer 2022"
 layout: lecture
 ---
 

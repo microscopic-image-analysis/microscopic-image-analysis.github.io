@@ -1,7 +1,7 @@
 ---
 name: "Image Processing I"
 state: old
-when: "Winter 2023/2024"
+when: "Winter 2020/2021"
 layout: lecture
 ---
 
