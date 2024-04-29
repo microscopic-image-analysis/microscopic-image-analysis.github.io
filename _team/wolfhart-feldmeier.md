@@ -9,5 +9,5 @@ layout: "member"
 
 ### Further links
 
-You can find me on [GitHub](https://github.com/trahflow), on
+You can find me on [GitHub](https://github.com/trahflow) or on
 [Mastodon](https://bayes.club/@trahflow)
