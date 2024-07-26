@@ -11,7 +11,7 @@ layout: "member"
 
 Coming from a background in RNA structure bioinformatics, I have been previously
 interested in designing sequences with secondary structures similar to those of known
-self-replicating RNA molecules.
+self-replicating RNA molecules at the former MPI-MIS [_structure of evolution_](https://www.mis.mpg.de/research/structure-of-evolution) group under joint supervision of Matteo Smerlak and Peter F. Stadler.
 
 For my PhD, I am applying Bayesian methods to 3D structure determination, taking into account the hierarchical nature
 of nucleic acid structure.
