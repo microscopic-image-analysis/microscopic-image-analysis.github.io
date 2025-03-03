@@ -7,7 +7,7 @@ teaser: "Bayesian modeling for computational imaging"
 layout: "member"
 ---
 
-My projects are at an intersection of applying bayesian modeling techniques to applications of computational imaging such as Ptychography. These projects are mainly driven by our group's focus on bayesian modeling and my interest in applying these techniques to problems in optics. Morever, I am also involved with development of new 3D-2D registration methods in Cryo-EM and X-ray nanotomography.  
+My projects lie at the intersection of applying Bayesian modeling techniques to computational microscopy, including Cryo-EM and coherent diffractive imaging (CDI)—mainly ptychography. Driven by our group’s focus on Bayesian inference and my interests for addressing challenges in optics, I work on developing new inference methods and applying them to some imaging problems such as 3D-2D rigid registration, high dynamic range imaging or phase retrieval in CDI.
 
 
 ### Further links
