@@ -21,3 +21,8 @@ This project is co-supervised by [Christian Höner zu Siederdissen](https://choe
 
 - [GitHub](https://github.com/fncnt)
 - [Orcid](https://orcid.org/0000-0002-4467-8804)
+- This [related article](https://doi.org/10.1038/s41467-025-63151-5) by my friends and former collaborators
+
+## Publications
+{% include publication-list.html name="vincent" %}
+
