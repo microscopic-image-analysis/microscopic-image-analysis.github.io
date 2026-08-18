@@ -24,7 +24,7 @@ title: Team
 
 {% assign former_team = site.former_team | sort: "ordering" %}
 {% if former_team.size > 0 %}
-<h2>Former Team Members</h2>
+<h2 class="former-team-heading">Former team members</h2>
 <div class="team-grid">
 {% for member in former_team %}
 <a href="{{ member.url | relative_url }}" class="undecorated">
